@@ -13,24 +13,24 @@ Explore the RailRoute interface through the screenshots below.
 <table>
   <tr>
     <td align="center">
-      <img src="./RailRoute_Preview1.png" alt="RailRoute Preview 1" width="100%">
+      <img src="./screenshots/RailRoute_Preview1.png" alt="RailRoute Preview 1" width="100%">
       <br>
       <b>RailRoute Preview 1</b>
     </td>
     <td align="center">
-      <img src="./RailRoute_Preview2.png" alt="RailRoute Preview 2" width="100%">
+      <img src="./screenshots/RailRoute_Preview2.png" alt="RailRoute Preview 2" width="100%">
       <br>
       <b>RailRoute Preview 2</b>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="./RailRoute_Preview3.png" alt="RailRoute Preview 3" width="100%">
+      <img src="./screenshots/RailRoute_Preview3.png" alt="RailRoute Preview 3" width="100%">
       <br>
       <b>RailRoute Preview 3</b>
     </td>
     <td align="center">
-      <img src="./RailRoute_Preview4.png" alt="RailRoute Preview 4" width="100%">
+      <img src="./screenshots/RailRoute_Preview4.png" alt="RailRoute Preview 4" width="100%">
       <br>
       <b>RailRoute Preview 4</b>
     </td>
