@@ -85,7 +85,7 @@ export default function HomePage() {
   return (
     <div className="space-y-10 py-4">
       {/* ─── Hero ─────────────────────────────────────────────────────────── */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-b from-sky-500/10 via-background to-background p-8 md:p-14 text-center border border-sky-500/20 shadow-glass">
+      <section className="relative overflow-visible z-20 rounded-3xl bg-gradient-to-b from-sky-500/10 via-background to-background p-8 md:p-14 text-center border border-sky-500/20 shadow-glass">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -157,7 +157,7 @@ export default function HomePage() {
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: 8, scale: 0.98 }}
                   transition={{ duration: 0.15 }}
-                  className="absolute left-0 right-0 top-full mt-2 z-50 max-h-[360px] overflow-y-auto rounded-2xl glass-panel p-3 shadow-glass-hover border border-slate-200 dark:border-slate-800"
+                  className="absolute left-0 right-0 top-full mt-2 z-50 max-h-[380px] sm:max-h-[440px] overflow-y-auto overscroll-contain rounded-2xl bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl p-3 shadow-2xl border border-slate-200/80 dark:border-slate-700/80"
                 >
                   {/* Error state */}
                   {isError && (
@@ -196,7 +196,7 @@ export default function HomePage() {
 
                   {/* Results */}
                   {searchResults && searchResults.length > 0 && (
-                    <div className="space-y-1.5">
+                    <div className="space-y-1.5 pb-2">
                       <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400 px-1 pb-1">
                         {inputValue ? 'Matching Trains' : 'Popular Trains'}
                       </p>
